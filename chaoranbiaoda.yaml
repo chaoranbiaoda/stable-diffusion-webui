@@ -9,7 +9,7 @@ services:
       service:
         name: serverless-devs-application
       function:
-        name: stable-diffusion-webui-ex8y
+        name: stable-diffusion-webui-s41d
         description: Initialize
         runtime: custom
         environmentVariables:
@@ -27,7 +27,7 @@ services:
         cpu: 0.05
         timeout: 60
         codeUri: ./
-        diskSize: 10240
+        diskSize: 512
         caPort: 9000
         customRuntimeConfig:
           command:
